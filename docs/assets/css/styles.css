@@ -37,9 +37,7 @@ li {
     position: absolute;
     width: 100%;
     top: 60px;
-    bottom: 0;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin: 12px 60px 12px 60px;
 }
 
 .relative {
@@ -52,11 +50,6 @@ li {
 
 .full-width {
     width: 100% !important;
-}
-
-.container {
-    max-width: 720px;
-    width: 100%;
 }
 
 .nav-list {
