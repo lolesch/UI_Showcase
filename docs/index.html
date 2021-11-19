@@ -6,46 +6,32 @@
     <title>Leonid Schreiber | UI/UX Design</title>
 
     <link rel="stylesheet" href="https://lolesch.github.io/UI_Showcase/assets/css/styles.css" />
+    <!--https://coolors.co/3d4f51-353535-ea860b-d9d9d9-ffffff-->
 
 </head>
 <body>
-    <!--
-    <h1>Apples</h1>
-    <p>Apples are fruit.</p>
-    <section>
-        <h2>Taste</h2>
-        <p>They taste lovely.</p>
-        <section>
-            <h3>Sweet</h3>
-            <p>Red apples are sweeter than green ones.</p>
-        </section>
-    </section>
-    <section>
-        <h2>Color</h2>
-        <p>Apples come in various colors.</p>
-    </section>
-    -->
     <div id="profile-header">
         <div>
-            <button type="button">
-                <svg width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
-                </svg>
-            </button>
             <img src="https://lolesch.github.io/UI_Showcase/media/menu.png" alt="Menu" width="32" height="32" />
-        </div>
-        <div>
             <h1 style="text-align: center;">UI Showcase</h1>
         </div>
     </div>
-    <div id="profile-content" class="container">
-        <main id="main" class="container">
+    <div id="profile-content">
+        <main id="main">
+            <!-- page navigation -->
+            <nav>
+                <ol class="nav-list">
+                    <li><a href="https://lolesch.github.io/UI_Showcase/">Main</a></li>
+                    <!--<li class="breadcrumb-item active" aria-current="page">List</li>-->
+                </ol>
+            </nav>
+
             <div>
-                <section class="container">
+                <section>
                     <div>
                         <img src="https://lolesch.github.io/UI_Showcase/media/Background.png" alt="A background" />
                     </div>
-                    <div class="container">
+                    <div>
                         <img class="portrait-image portrait-image--circle" src="https://lolesch.github.io/UI_Showcase/media/Schreiber_Leonid_Photo.jpg" alt="Leonid Schreiber" />
                     </div>
                 </section>
@@ -56,14 +42,13 @@
 
             <div>
                 <h2>Get in touch</h2>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="mailto:leonid.schreiber@yahoo.de">leonid.schreiber@yahoo.de</a></li>
-                    <li class="spacer">/</li>
+                    <li>/</li>
                     <li><a href="https://www.linkedin.com/in/leonid-schreiber/">LinkedIn</a></li>
                 </ul>
             </div>
         </main>
     </div>
 </body>
-</head>
 </html>
