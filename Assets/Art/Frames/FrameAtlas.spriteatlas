@@ -35,7 +35,7 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
@@ -43,32 +43,41 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 7c4e4036cade85e448be4f90e053d6fb, type: 3}
     - {fileID: 2800000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
+    - {fileID: 2800000, guid: b74945334515fa54890eab6e9e872c8c, type: 3}
+    - {fileID: 2800000, guid: c8be7a9876513ed43aa1654cd8ab5ed2, type: 3}
+    - {fileID: 2800000, guid: b05dc111e2433e24982b1e9354e86e27, type: 3}
+    - {fileID: 2800000, guid: 608d40565e50ec64199f522d14ce280e, type: 3}
+    - {fileID: 2800000, guid: 7d161976165551c4a9de950e5be4d389, type: 3}
     - {fileID: 2800000, guid: 167a82a64fd22c347ad49d48de5af124, type: 3}
     - {fileID: 2800000, guid: 6db19bc1bf1eb3e46904177b2e2f0c65, type: 3}
     - {fileID: 2800000, guid: 6b7b755732a1eb44698d90e87cbafcb2, type: 3}
-    - {fileID: 2800000, guid: d487e6957fae0384ea8715be2a55bfde, type: 3}
     - {fileID: 2800000, guid: df0c7aefd422bd74eb9c29d213cdf5c9, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: b05dc111e2433e24982b1e9354e86e27, type: 3}
   - {fileID: 21300000, guid: 6db19bc1bf1eb3e46904177b2e2f0c65, type: 3}
-  - {fileID: 21300000, guid: d487e6957fae0384ea8715be2a55bfde, type: 3}
-  - {fileID: 21300000, guid: 7c4e4036cade85e448be4f90e053d6fb, type: 3}
+  - {fileID: 21300000, guid: b74945334515fa54890eab6e9e872c8c, type: 3}
+  - {fileID: 21300000, guid: 608d40565e50ec64199f522d14ce280e, type: 3}
+  - {fileID: 21300000, guid: 7d161976165551c4a9de950e5be4d389, type: 3}
   - {fileID: 21300000, guid: 167a82a64fd22c347ad49d48de5af124, type: 3}
   - {fileID: 21300000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
   - {fileID: 21300000, guid: 6b7b755732a1eb44698d90e87cbafcb2, type: 3}
+  - {fileID: 21300000, guid: c8be7a9876513ed43aa1654cd8ab5ed2, type: 3}
   - {fileID: 21300000, guid: df0c7aefd422bd74eb9c29d213cdf5c9, type: 3}
   m_PackedSpriteNamesToIndex:
+  - UI_Frame_roundCorners_03
   - UI_Frame_SharpCorners_big
-  - UI_Frame_Simple2x2
-  - FrameBase
+  - UI_Frame_roundCorners_01
+  - UI_Frame_roundCorners_04
+  - UI_Frame_roundCorners_05
   - UI_Frame_roundCorners_outer
   - UI_Frame_roundCorners
   - UI_Frame_SharpCorners_smal
+  - UI_Frame_roundCorners_02
   - UI_Frame_TriangleCorners
   m_RenderDataMap: {}
   m_Tag: FrameAtlas

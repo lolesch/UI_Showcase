@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd90bbb8a2699d94c91671242f79546f, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  colors:
+    m_NormalColor: {r: 0.003921569, g: 0.043137256, b: 0.07450981, a: 1}
+    m_HighlightedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 0.29803923}
+    m_PressedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 0.29803923}
+    m_SelectedColor: {r: 0.85490197, g: 0.9843137, b: 0.99215686, a: 0.5019608}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  normalColor: {fileID: 11400000, guid: e113d3a494974fa418c74591fa05be87, type: 2}
+  highlightedColor: {fileID: 11400000, guid: 9bd201b9b848af24ba6f9c6b6d3ee681, type: 2}
+  pressedColor: {fileID: 11400000, guid: 9bd201b9b848af24ba6f9c6b6d3ee681, type: 2}
+  selectedColor: {fileID: 11400000, guid: bf16039eba2985e499d32ae80a63b99c, type: 2}
+  disabledColor: {fileID: 11400000, guid: d6a369a9dc99a2c46bb7c175875dda38, type: 2}

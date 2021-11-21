@@ -17,6 +17,11 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 1}
     m_PressedColor: {r: 0.6037736, g: 0.576374, b: 0.51548594, a: 1}
     m_SelectedColor: {r: 0.80392164, g: 0.74509805, b: 0.5686275, a: 1}
-    m_DisabledColor: {r: 0.6037736, g: 0.576374, b: 0.51548594, a: 0.5019608}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
+  normalColor: {fileID: 11400000, guid: caa3e745dd95d14439e3871fa2135720, type: 2}
+  highlightedColor: {fileID: 11400000, guid: ad17bec4cc46f1b4f8cbbb1d68d1ce39, type: 2}
+  pressedColor: {fileID: 11400000, guid: a363eff625d41374fb8ab6a1b7ecd590, type: 2}
+  selectedColor: {fileID: 11400000, guid: caa3e745dd95d14439e3871fa2135720, type: 2}
+  disabledColor: {fileID: 11400000, guid: d6a369a9dc99a2c46bb7c175875dda38, type: 2}

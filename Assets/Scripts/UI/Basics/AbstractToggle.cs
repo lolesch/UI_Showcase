@@ -5,26 +5,17 @@ using UnityEngine.UI;
 
 namespace UI_Showcase
 {
-    [RequireComponent(typeof(Toggle))]
+    [RequireComponent(typeof(Toggle), typeof(SelectableColorsSetter))]
     public abstract class AbstractToggle : MonoBehaviour
     {
         protected Toggle toggle;
 
         [SerializeField] protected GameObject contentToToggle;
 
-        [SerializeField] protected SelectableColors selectableColors;
-
         private void Awake()
         {
             TryGetComponent(out toggle);
             toggle?.onValueChanged.AddListener(OnValueChanged);
-        }
-
-        protected void OnValidate()
-        {
-            Awake();
-            if (selectableColors)
-                toggle.colors = selectableColors.colors;
         }
 
         protected virtual void OnValueChanged(bool isOn)
