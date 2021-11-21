@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace UI_Showcase
@@ -8,12 +10,27 @@ namespace UI_Showcase
     {
         protected Toggle toggle;
 
+        [SerializeField] protected GameObject contentToToggle;
+
+        [SerializeField] protected SelectableColors selectableColors;
+
         private void Awake()
         {
             TryGetComponent(out toggle);
-            toggle?.onValueChanged.AddListener(OnClick);
+            toggle?.onValueChanged.AddListener(OnValueChanged);
         }
 
-        protected abstract void OnClick(bool isOn);
+        protected void OnValidate()
+        {
+            Awake();
+            if (selectableColors)
+                toggle.colors = selectableColors.colors;
+        }
+
+        protected virtual void OnValueChanged(bool isOn)
+        {
+            if (contentToToggle)
+                contentToToggle.SetActive(isOn);
+        }
     }
 }

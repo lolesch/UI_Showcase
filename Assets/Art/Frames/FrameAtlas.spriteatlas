@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FrameAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 7c4e4036cade85e448be4f90e053d6fb, type: 3}
+    - {fileID: 2800000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
+    - {fileID: 2800000, guid: 167a82a64fd22c347ad49d48de5af124, type: 3}
+    - {fileID: 2800000, guid: 6db19bc1bf1eb3e46904177b2e2f0c65, type: 3}
+    - {fileID: 2800000, guid: 6b7b755732a1eb44698d90e87cbafcb2, type: 3}
+    - {fileID: 2800000, guid: d487e6957fae0384ea8715be2a55bfde, type: 3}
+    - {fileID: 2800000, guid: df0c7aefd422bd74eb9c29d213cdf5c9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6db19bc1bf1eb3e46904177b2e2f0c65, type: 3}
+  - {fileID: 21300000, guid: d487e6957fae0384ea8715be2a55bfde, type: 3}
+  - {fileID: 21300000, guid: 7c4e4036cade85e448be4f90e053d6fb, type: 3}
+  - {fileID: 21300000, guid: 167a82a64fd22c347ad49d48de5af124, type: 3}
+  - {fileID: 21300000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
+  - {fileID: 21300000, guid: 6b7b755732a1eb44698d90e87cbafcb2, type: 3}
+  - {fileID: 21300000, guid: df0c7aefd422bd74eb9c29d213cdf5c9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_Frame_SharpCorners_big
+  - UI_Frame_Simple2x2
+  - FrameBase
+  - UI_Frame_roundCorners_outer
+  - UI_Frame_roundCorners
+  - UI_Frame_SharpCorners_smal
+  - UI_Frame_TriangleCorners
+  m_RenderDataMap: {}
+  m_Tag: FrameAtlas
+  m_IsVariant: 0

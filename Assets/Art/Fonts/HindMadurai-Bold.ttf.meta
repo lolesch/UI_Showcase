@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: b8e4c2360c5c8e546921236bf272d8a0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hind Madurai
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e174ee6624f46a146ac28c4c7050f322, type: 3}
+  - {fileID: 12800000, guid: e037642ac948f0e49aeadfef8be73a9b, type: 3}
+  - {fileID: 12800000, guid: f489e5f729a5082458d44c6e0ef4d926, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
