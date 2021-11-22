@@ -32,49 +32,5 @@ namespace UI_Showcase
 
             updateColor?.Invoke(colors);
         }
-
-        private void Awake()
-        {
-            normalColor.updateColor += UpdateNormalColor;
-            highlightedColor.updateColor += UpdateHighlightColor;
-            pressedColor.updateColor += UpdatePressedColor;
-            selectedColor.updateColor += UpdateSelectedColor;
-            disabledColor.updateColor += UpdateDisabledColor;
-        }
-
-        private void OnDestroy()
-        {
-            normalColor.updateColor -= UpdateNormalColor;
-            highlightedColor.updateColor -= UpdateHighlightColor;
-            pressedColor.updateColor -= UpdatePressedColor;
-            selectedColor.updateColor -= UpdateSelectedColor;
-            disabledColor.updateColor -= UpdateDisabledColor;
-        }
-
-        private void UpdateNormalColor(Color color)
-        {
-            colors.normalColor = normalColor.color;
-            updateColor?.Invoke(colors);
-        }
-        private void UpdateHighlightColor(Color color)
-        {
-            colors.highlightedColor = highlightedColor.color;
-            updateColor?.Invoke(colors);
-        }
-        private void UpdatePressedColor(Color color)
-        {
-            colors.pressedColor = pressedColor.color;
-            updateColor?.Invoke(colors);
-        }
-        private void UpdateSelectedColor(Color color)
-        {
-            colors.selectedColor = selectedColor.color;
-            updateColor?.Invoke(colors);
-        }
-        private void UpdateDisabledColor(Color color)
-        {
-            colors.disabledColor = disabledColor.color;
-            updateColor?.Invoke(colors);
-        }
     }
 }

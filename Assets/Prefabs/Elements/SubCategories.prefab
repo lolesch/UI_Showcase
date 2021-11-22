@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 6780103759948151973}
   - component: {fileID: 6534509779243322845}
   - component: {fileID: 5314457739689559906}
+  - component: {fileID: 196903491593136914}
+  - component: {fileID: 8371046158912045991}
+  - component: {fileID: 6393326381330105942}
   m_Layer: 5
   m_Name: SubCategories
   m_TagString: Untagged
@@ -78,6 +81,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 0
+--- !u!222 &196903491593136914
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249139578238451815}
+  m_CullTransparentMesh: 1
+--- !u!114 &8371046158912045991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249139578238451815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.003921569, g: 0.043137256, b: 0.07450981, a: 0.9019608}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5aa999cd0fd69124fa818bfa4cf0856f, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 10
+--- !u!114 &6393326381330105942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249139578238451815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0dc020d96d0f2449faab3bfbe24758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settableColor: {fileID: 11400000, guid: 1a1c246428d7baf4cb78e93fe4f6718b, type: 2}
 --- !u!1001 &2123635057356465899
 PrefabInstance:
   m_ObjectHideFlags: 0

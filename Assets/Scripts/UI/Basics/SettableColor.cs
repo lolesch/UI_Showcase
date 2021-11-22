@@ -7,12 +7,5 @@ namespace UI_Showcase
     public class SettableColor : ScriptableObject
     {
         public Color color;
-
-        public event Action<Color> updateColor;
-
-        private void OnValidate()
-        {
-            updateColor?.Invoke(color);
-        }
     }
 }

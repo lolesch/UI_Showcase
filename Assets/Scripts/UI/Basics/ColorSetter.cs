@@ -18,13 +18,7 @@ namespace UI_Showcase
             if (settableColor)
                 SetColor(settableColor.color);
             else
-                Debug.LogError($"No settable color on {transform.parent.name}", this);
-            settableColor.updateColor += SetColor;
-        }
-
-        private void OnDestroy()
-        {
-            settableColor.updateColor -= SetColor;
+                Debug.LogError($"No settable color on {transform.name}");
         }
 
         private void SetColor(Color color)

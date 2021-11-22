@@ -1,4 +1,5 @@
 ﻿using DG.Tweening;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +11,7 @@ namespace UI_Showcase
     {
         protected Toggle toggle;
 
-        [SerializeField] protected GameObject contentToToggle;
+        [SerializeField] protected List<GameObject> contentToToggle;
 
         private void Awake()
         {
@@ -20,8 +21,8 @@ namespace UI_Showcase
 
         protected virtual void OnValueChanged(bool isOn)
         {
-            if (contentToToggle)
-                contentToToggle.SetActive(isOn);
+            foreach (var item in contentToToggle)
+                item.SetActive(isOn);
         }
     }
 }

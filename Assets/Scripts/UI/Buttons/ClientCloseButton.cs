@@ -6,7 +6,9 @@ namespace UI_Showcase
     {
         protected override void OnClick()
         {
-#if UNITY_EDITOR
+#if UNITY_WEBGL
+            Screen.fullScreen = !Screen.fullScreen;
+#elif UNITY_EDITOR
             Debug.Break();
 #else
             Application.Quit();
