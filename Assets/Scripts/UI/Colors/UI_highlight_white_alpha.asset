@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1742f1f91578cd748b9a2a1a69930c8d, type: 3}
   m_Name: UI_highlight_white_alpha
   m_EditorClassIdentifier: 
-  color: {r: 0.85490197, g: 0.9843137, b: 0.99215686, a: 0.5019608}
+  color: {r: 0.7877358, g: 0.98787063, b: 1, a: 0.29803923}

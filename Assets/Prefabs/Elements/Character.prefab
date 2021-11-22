@@ -879,7 +879,6 @@ GameObject:
   - component: {fileID: 1349464024523359243}
   - component: {fileID: 2632188924519209789}
   - component: {fileID: 4883775990083124748}
-  - component: {fileID: 2606406484311146984}
   m_Layer: 5
   m_Name: PortraitFrame
   m_TagString: Untagged
@@ -944,26 +943,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 3.3
---- !u!114 &2606406484311146984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6751567905143652709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 1
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!1 &6766496509585963652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1016,7 @@ MonoBehaviour:
     m_NormalColor: {r: 0.003921569, g: 0.043137256, b: 0.07450981, a: 1}
     m_HighlightedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 0.29803923}
     m_PressedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 0.29803923}
-    m_SelectedColor: {r: 0.85490197, g: 0.9843137, b: 0.99215686, a: 0.5019608}
+    m_SelectedColor: {r: 0.7877358, g: 0.98787063, b: 1, a: 0.29803923}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1074,12 +1053,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contentToToggle: {fileID: 0}
-  selectedLightColorChangeObjects:
-  - {fileID: 4883775990083124748}
-  selectedDarkColorChangeObjects:
+  selectedColorChangeObjects:
   - {fileID: 3253647137200656415}
-  selectedLightColor: {fileID: 11400000, guid: 4ed26e314d4100e4fb8e3c9af4992516, type: 2}
-  selectedDarkColor: {fileID: 11400000, guid: 0becee2192b4c65459eef4cb303d3864, type: 2}
+  - {fileID: 4883775990083124748}
+  selectedColor: {fileID: 11400000, guid: 0becee2192b4c65459eef4cb303d3864, type: 2}
   deselectedColor: {fileID: 11400000, guid: 2352326eb6268764e91902ffd9b408b8, type: 2}
 --- !u!114 &4712616101460272725
 MonoBehaviour:
