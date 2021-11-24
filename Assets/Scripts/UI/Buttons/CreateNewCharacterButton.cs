@@ -16,7 +16,7 @@ namespace UI_Showcase
                 toggle.isOn = true;
                 toggle.Select();
             }
-            newCharacter.transform.SetSiblingIndex(1);
+            newCharacter.transform.SetSiblingIndex(0);
         }
     }
 }

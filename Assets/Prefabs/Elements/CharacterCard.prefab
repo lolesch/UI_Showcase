@@ -208,7 +208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f9bb58f5cd5d74e6f8b342a51fa10128, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb03ac99c6eea3842b54ab530e8ea136, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -456,14 +456,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6431373, g: 0.5137255, b: 0.3372549, a: 1}
+  m_Color: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 660045564b0621349b89a3a53d9f6781, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cfd42dfb3c37c546a6f78667bd61d4c, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 5
+  m_PixelsPerUnitMultiplier: 8
 --- !u!114 &6765945721283772233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 89c261c2fe036924c85691acfd969583, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cfd42dfb3c37c546a6f78667bd61d4c, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 7.5
+  m_PixelsPerUnitMultiplier: 9
 --- !u!114 &809471333577578934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6431373, g: 0.5137255, b: 0.3372549, a: 1}
+  m_Color: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1133,8 +1133,9 @@ GameObject:
   - component: {fileID: 593888532454418132}
   - component: {fileID: 3905896978586052799}
   - component: {fileID: 4712616101460272725}
+  - component: {fileID: 144696112480729738}
   m_Layer: 5
-  m_Name: Character
+  m_Name: CharacterCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1229,12 +1230,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c124f2d64b9bf744a9645ed97702508e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentToToggle: {fileID: 0}
+  isEnabledAtStrat: 0
+  contentToToggle:
+  - {fileID: 0}
   selectedColorChangeObjects:
   - {fileID: 3253647137200656415}
   - {fileID: 4883775990083124748}
   selectedColor: {fileID: 11400000, guid: 0becee2192b4c65459eef4cb303d3864, type: 2}
   deselectedColor: {fileID: 11400000, guid: 2352326eb6268764e91902ffd9b408b8, type: 2}
+  character: {fileID: 11400000, guid: 25b639f60a8ab21498a7b81022ba6370, type: 2}
 --- !u!114 &4712616101460272725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,6 +1252,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settableColor: {fileID: 11400000, guid: 69b6d8ee621234c478423acbe0863187, type: 2}
+--- !u!114 &144696112480729738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6766496509585963652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349f0e495876a2c46bd9f6d67151073c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 4650687005750309064}
+  defaultPortrait: {fileID: 0}
+  characterName: {fileID: 3419548810895039059}
 --- !u!1 &7184856282902626642
 GameObject:
   m_ObjectHideFlags: 0

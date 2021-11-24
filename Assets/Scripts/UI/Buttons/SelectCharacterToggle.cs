@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using DnD.Characters;
+using System.Collections.Generic;
+using UI_Showcase.Displays;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,17 +13,14 @@ namespace UI_Showcase
         [SerializeField] private SettableColor selectedColor;
         [SerializeField] private SettableColor deselectedColor;
 
+        [SerializeField] private Character character;
+
         protected override void OnValueChanged(bool isOn)
         {
             foreach (var item in selectedColorChangeObjects)
                 item.color = isOn ? selectedColor.color : deselectedColor.color;
-        }
 
-        [ContextMenu("Validate")]
-        private void OnValidate()
-        {
-            if (TryGetComponent(out toggle))
-                OnValueChanged(toggle.isOn);
+            CharacterEditorDisplay.selectedCharacter = character;
         }
     }
 }

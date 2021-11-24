@@ -10,6 +10,7 @@ namespace UI_Showcase
     public abstract class AbstractToggle : MonoBehaviour
     {
         protected Toggle toggle;
+        [SerializeField] protected bool isEnabledAtStrat = false;
 
         [SerializeField] protected List<GameObject> contentToToggle;
 
@@ -17,6 +18,13 @@ namespace UI_Showcase
         {
             TryGetComponent(out toggle);
             toggle?.onValueChanged.AddListener(OnValueChanged);
+
+            if (!toggle.group)
+                toggle.group = GetComponentInParent<ToggleGroup>();
+
+            toggle.isOn = isEnabledAtStrat;
+
+            OnValueChanged(isEnabledAtStrat);
         }
 
         protected virtual void OnValueChanged(bool isOn)

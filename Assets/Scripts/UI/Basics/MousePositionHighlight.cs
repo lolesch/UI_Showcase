@@ -7,8 +7,10 @@ namespace UI_Showcase
     public class MousePositionHighlight : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField] private RectTransform highlight;
+        [SerializeField] private float offset = 0f;
 
         private bool isHovering = false;
+
 
         public void OnPointerEnter(PointerEventData eventData)
         {
@@ -33,7 +35,7 @@ namespace UI_Showcase
                 float position = transform.InverseTransformVector(transform.position).x;
                 float width = (transform as RectTransform).rect.width;
 
-                float relativeOffset = (position - (width * (transform as RectTransform).pivot.x)) * transform.lossyScale.x;
+                float relativeOffset = (position - (width * (transform as RectTransform).pivot.x) + offset) * transform.lossyScale.x;
 
                 highlight.anchoredPosition = new Vector2((Input.mousePosition.x - relativeOffset) / transform.lossyScale.x, highlight.anchoredPosition.y);
 

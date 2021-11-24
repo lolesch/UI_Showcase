@@ -98,10 +98,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.80392164, g: 0.74509805, b: 0.5686275, a: 1}
+    m_NormalColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 0.29803923}
     m_HighlightedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 1}
-    m_PressedColor: {r: 0.6037736, g: 0.576374, b: 0.51548594, a: 1}
-    m_SelectedColor: {r: 0.80392164, g: 0.74509805, b: 0.5686275, a: 1}
+    m_PressedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 1}
+    m_SelectedColor: {r: 0.94117653, g: 0.90196085, b: 0.8235295, a: 0.29803923}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -133,4 +133,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa984ae6ba87264997e153775e31b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settableColor: {fileID: 11400000, guid: f86770d8dd1e19a43a5fc924b367209e, type: 2}
+  settableColor: {fileID: 11400000, guid: 04b33c32bf0a54f439ec1e44bca89ef7, type: 2}
