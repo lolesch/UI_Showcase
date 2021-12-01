@@ -1196,7 +1196,7 @@ MonoBehaviour:
     m_NormalColor: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
     m_HighlightedColor: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
     m_PressedColor: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
-    m_SelectedColor: {r: 0.7075472, g: 0.4785122, b: 0.09678713, a: 1}
+    m_SelectedColor: {r: 0.35537556, g: 0.55251956, b: 0.6226415, a: 1}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1281,6 +1281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 0.2
   scaleTo: 1.03
+  objectToScale: {fileID: 1105689048970142187}
 --- !u!1 &7184856282902626642
 GameObject:
   m_ObjectHideFlags: 0
