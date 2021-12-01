@@ -14,19 +14,19 @@ namespace DnD.UI.Displays
         {
             tooltip.OnValueChanged(transform.GetSiblingIndex() - 1);
             tooltip.FadeIn();
-            itemLabel.DOFade(1, .2f).SetEase(Ease.InCubic);
+            itemLabel.DOFade(1, .2f).SetEase(Ease.OutCubic);
         }
 
         public void OnPointerExit(PointerEventData eventData)
         {
             tooltip.FadeOut();
-            itemLabel.DOFade(0, .2f).SetEase(Ease.OutCubic);
+            itemLabel.DOFade(0, .2f).SetEase(Ease.InCubic);
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
             tooltip.FadeOut();
-            itemLabel.DOFade(0, .2f).SetEase(Ease.OutCubic);
+            itemLabel.DOFade(0, .2f).SetEase(Ease.InCubic);
         }
     }
 }

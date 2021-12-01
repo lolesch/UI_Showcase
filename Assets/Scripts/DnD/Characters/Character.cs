@@ -12,18 +12,18 @@ namespace DnD.Characters
     [CreateAssetMenu(fileName = "new Character", menuName = "Character/new Character", order = 1)]
     public class Character : ScriptableObject
     {
-        public event Action<Character> onValueChanged;
-
         public string characterName = "The Nameless";
         public Sprite characterImage;
         private const uint maxLevel = 20u;
         [SerializeField] [Range(1, maxLevel)] private uint characterLevel = 1u;
+        public uint CharacterLevel => characterLevel;
 
         [SerializeField] private uint currentHitPoints;  // the hit points during combat
         [SerializeField] private uint hitPoints;         // the hit point maximum at your current level
         [SerializeField] private CharacterRace characterRace;
+        public CharacterRace CharacterRace => characterRace;
         //[SerializeField] private RaceSubType characterSubRace;
-        [SerializeField] private CharacterClass characterClass;
+        [SerializeField] private CharacterClass[] characterClasses = new CharacterClass[2];
         //[SerializeField] private ClassSubType characterSubClass;
 
         //[SerializeField] private uint experiencePoints = 0u;
@@ -99,7 +99,7 @@ namespace DnD.Characters
 
         public void SetCharacterRace(CharacterRace charRace) => characterRace = charRace;
 
-        public void SetCharacterClass(CharacterClass charClass) => characterClass = charClass;
+        public void SetCharacterClass(CharacterClass charClass, int position) => characterClasses[position] = charClass;
 
         public void SetCharacterLevel(uint level) => characterLevel = Math.Min(maxLevel, level);
 
@@ -121,7 +121,9 @@ namespace DnD.Characters
             // incrase your character's proficiency bonus?
 
             // calculate hitPoints
-            hitPoints = (uint)(characterClass.HitDice + Constitution.Modifier) + characterClass.averageHitDiceRoll * characterLevel;
+            hitPoints = 0;
+            for (int i = 0; i < characterClasses.Length; i++)
+                hitPoints += (uint)(characterClasses[i].HitDice + Constitution.Modifier) + characterClasses[i].averageHitDiceRoll * characterLevel;
         }
 
         public void Rest()

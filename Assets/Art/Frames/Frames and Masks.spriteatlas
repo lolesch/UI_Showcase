@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FrameAtlas
+  m_Name: Frames and Masks
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -35,7 +35,7 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 8
+      padding: 2
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
@@ -43,7 +43,6 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
     - {fileID: 2800000, guid: b74945334515fa54890eab6e9e872c8c, type: 3}
     - {fileID: 2800000, guid: c8be7a9876513ed43aa1654cd8ab5ed2, type: 3}
     - {fileID: 2800000, guid: b05dc111e2433e24982b1e9354e86e27, type: 3}
@@ -53,32 +52,66 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 6db19bc1bf1eb3e46904177b2e2f0c65, type: 3}
     - {fileID: 2800000, guid: 6b7b755732a1eb44698d90e87cbafcb2, type: 3}
     - {fileID: 2800000, guid: df0c7aefd422bd74eb9c29d213cdf5c9, type: 3}
+    - {fileID: 2800000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
+    - {fileID: 2800000, guid: d487e6957fae0384ea8715be2a55bfde, type: 3}
+    - {fileID: 2800000, guid: 08fbdd674c41c134281cbbf1c499b001, type: 3}
+    - {fileID: 2800000, guid: 3003b4db762e0fc438cad2259c9f9bd1, type: 3}
+    - {fileID: 2800000, guid: 1564f5b0e5856034e81625dc4372affc, type: 3}
+    - {fileID: 2800000, guid: 532f60ff6d2192e4a965ee89a04d2962, type: 3}
+    - {fileID: 2800000, guid: 1c0014577497d344590159c15ef95ccd, type: 3}
+    - {fileID: 2800000, guid: e2f717e91bb3d94408f68d581b8b0b66, type: 3}
+    - {fileID: 2800000, guid: 660045564b0621349b89a3a53d9f6781, type: 3}
+    - {fileID: 2800000, guid: 89c261c2fe036924c85691acfd969583, type: 3}
+    - {fileID: 2800000, guid: db3eb8f02f2cb0b45a697010d5cb1a54, type: 3}
+    - {fileID: 2800000, guid: 4cfd42dfb3c37c546a6f78667bd61d4c, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 1564f5b0e5856034e81625dc4372affc, type: 3}
+  - {fileID: 21300000, guid: db3eb8f02f2cb0b45a697010d5cb1a54, type: 3}
   - {fileID: 21300000, guid: b05dc111e2433e24982b1e9354e86e27, type: 3}
   - {fileID: 21300000, guid: 6db19bc1bf1eb3e46904177b2e2f0c65, type: 3}
+  - {fileID: 21300000, guid: 89c261c2fe036924c85691acfd969583, type: 3}
   - {fileID: 21300000, guid: b74945334515fa54890eab6e9e872c8c, type: 3}
+  - {fileID: 21300000, guid: d487e6957fae0384ea8715be2a55bfde, type: 3}
   - {fileID: 21300000, guid: 608d40565e50ec64199f522d14ce280e, type: 3}
+  - {fileID: 21300000, guid: 660045564b0621349b89a3a53d9f6781, type: 3}
   - {fileID: 21300000, guid: 7d161976165551c4a9de950e5be4d389, type: 3}
   - {fileID: 21300000, guid: 167a82a64fd22c347ad49d48de5af124, type: 3}
   - {fileID: 21300000, guid: eb5d1717745fb9d40b11d09b19418eb5, type: 3}
+  - {fileID: 21300000, guid: 1c0014577497d344590159c15ef95ccd, type: 3}
   - {fileID: 21300000, guid: 6b7b755732a1eb44698d90e87cbafcb2, type: 3}
+  - {fileID: 21300000, guid: 08fbdd674c41c134281cbbf1c499b001, type: 3}
   - {fileID: 21300000, guid: c8be7a9876513ed43aa1654cd8ab5ed2, type: 3}
+  - {fileID: 21300000, guid: e2f717e91bb3d94408f68d581b8b0b66, type: 3}
+  - {fileID: 21300000, guid: 3003b4db762e0fc438cad2259c9f9bd1, type: 3}
+  - {fileID: 21300000, guid: 4cfd42dfb3c37c546a6f78667bd61d4c, type: 3}
   - {fileID: 21300000, guid: df0c7aefd422bd74eb9c29d213cdf5c9, type: 3}
+  - {fileID: 21300000, guid: 532f60ff6d2192e4a965ee89a04d2962, type: 3}
   m_PackedSpriteNamesToIndex:
+  - UI_Frame_Soft_inner
+  - UI_Mask_roundCorners_06
   - UI_Frame_roundCorners_03
   - UI_Frame_SharpCorners_big
+  - UI_Mask_roundCorners_05
   - UI_Frame_roundCorners_01
+  - UI_Frame_Simple2x2
   - UI_Frame_roundCorners_04
+  - UI_Mask_roundCorners_04
   - UI_Frame_roundCorners_05
   - UI_Frame_roundCorners_outer
   - UI_Frame_roundCorners
+  - UI_Mask_roundCorners_02
   - UI_Frame_SharpCorners_smal
+  - UI_Frame_Soft copy
   - UI_Frame_roundCorners_02
+  - UI_Mask_roundCorners_03
+  - UI_Frame_Soft
+  - UI_Mask_roundCorners_07
   - UI_Frame_TriangleCorners
+  - UI_Mask_roundCorners_01
   m_RenderDataMap: {}
-  m_Tag: FrameAtlas
+  m_Tag: Frames and Masks
   m_IsVariant: 0

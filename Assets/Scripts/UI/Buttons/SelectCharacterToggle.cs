@@ -1,4 +1,5 @@
 ﻿using DnD.Characters;
+using DnD.Enums;
 using System.Collections.Generic;
 using UI_Showcase.Displays;
 using UnityEngine;
@@ -12,15 +13,25 @@ namespace UI_Showcase
 
         [SerializeField] private SettableColor selectedColor;
         [SerializeField] private SettableColor deselectedColor;
+        [SerializeField] private Sprite defaultPortrait;
 
-        [SerializeField] private Character character;
+        public Character character;
 
         protected override void OnValueChanged(bool isOn)
         {
+            base.OnValueChanged(isOn);
+
             foreach (var item in selectedColorChangeObjects)
                 item.color = isOn ? selectedColor.color : deselectedColor.color;
 
-            CharacterEditorDisplay.selectedCharacter = character;
+            if (!character)
+            {
+                character = ScriptableObject.CreateInstance<Character>();
+                character.characterImage = defaultPortrait;
+                character.characterName = "Character Name";
+            }
+
+            CharacterSelector.SetCharacter(character);
         }
     }
 }

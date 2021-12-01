@@ -4,7 +4,6 @@ using Sirenix.OdinInspector;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using System.Linq;
 using UI_Showcase.Displays;
 
 namespace DnD.UI.Displays
@@ -54,7 +53,7 @@ namespace DnD.UI.Displays
 
             classDisplay.UpdateDisplay(characterClass);
 
-            CharacterEditorDisplay.selectedCharacter.SetCharacterClass(characterClass);
+            CharacterSelector.selectedCharacter.SetCharacterClass(characterClass, 0);
         }
     }
 }

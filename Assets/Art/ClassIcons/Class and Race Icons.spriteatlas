@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Class and Race Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: eb03ac99c6eea3842b54ab530e8ea136, type: 3}
+    - {fileID: 2800000, guid: a88a54fe9a0c6ce46ae6e056a61b11ec, type: 3}
+    - {fileID: 2800000, guid: dc75cac2c2b3a114397a45c0020dea19, type: 3}
+    - {fileID: 2800000, guid: 470d5163127bb8f42b020ca92f39bad9, type: 3}
+    - {fileID: 2800000, guid: 38710c9dd136b9240a16fe5422336e9d, type: 3}
+    - {fileID: 2800000, guid: 3152980eaa0f6cc49938722b04e0bb5f, type: 3}
+    - {fileID: 2800000, guid: 5d4e6a40442d02847ba8613f0169f35f, type: 3}
+    - {fileID: 2800000, guid: 48f11c6f8ba59874ab926dbe60025197, type: 3}
+    - {fileID: 2800000, guid: 9e09ed9ef01f12e45b5403fbf7f71a67, type: 3}
+    - {fileID: 2800000, guid: b8064a4f056298947a5ef8775e74f499, type: 3}
+    - {fileID: 2800000, guid: ef49b952cb129fe40b56c8226e478bba, type: 3}
+    - {fileID: 2800000, guid: 61ef82fa4b058a84990b53adfffc8829, type: 3}
+    - {fileID: 2800000, guid: ffd6689a1a9798448bfcda51e216fa59, type: 3}
+    - {fileID: 2800000, guid: 3f15ec68cbd1d2a499495c49cb69ffa9, type: 3}
+    - {fileID: 2800000, guid: d71691f70fd75e342827fdd906b5b9b4, type: 3}
+    - {fileID: 2800000, guid: 4aa0159c1fee1f94eb36c35daade106c, type: 3}
+    - {fileID: 2800000, guid: 6f1ad8aff2c49bf4b9a4294e170c25b2, type: 3}
+    - {fileID: 2800000, guid: f0a1e86d3c5cd914bbb53ea451dfdacd, type: 3}
+    - {fileID: 2800000, guid: bed1b031ad6bce346882dfb4356d9be3, type: 3}
+    - {fileID: 2800000, guid: 48bb0e22668c3854c8268ada757aab0f, type: 3}
+    - {fileID: 2800000, guid: 405bf74889c021e478ba0f3984ee1671, type: 3}
+    - {fileID: 2800000, guid: 07a6cf047ad9ee64cb6cabad749710f4, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5d4e6a40442d02847ba8613f0169f35f, type: 3}
+  - {fileID: 21300000, guid: bed1b031ad6bce346882dfb4356d9be3, type: 3}
+  - {fileID: 21300000, guid: 48bb0e22668c3854c8268ada757aab0f, type: 3}
+  - {fileID: 21300000, guid: ef49b952cb129fe40b56c8226e478bba, type: 3}
+  - {fileID: 21300000, guid: dc75cac2c2b3a114397a45c0020dea19, type: 3}
+  - {fileID: 21300000, guid: 470d5163127bb8f42b020ca92f39bad9, type: 3}
+  - {fileID: 21300000, guid: 07a6cf047ad9ee64cb6cabad749710f4, type: 3}
+  - {fileID: 21300000, guid: d71691f70fd75e342827fdd906b5b9b4, type: 3}
+  - {fileID: 21300000, guid: 405bf74889c021e478ba0f3984ee1671, type: 3}
+  - {fileID: 21300000, guid: 3f15ec68cbd1d2a499495c49cb69ffa9, type: 3}
+  - {fileID: 21300000, guid: eb03ac99c6eea3842b54ab530e8ea136, type: 3}
+  - {fileID: 21300000, guid: ffd6689a1a9798448bfcda51e216fa59, type: 3}
+  - {fileID: 21300000, guid: 61ef82fa4b058a84990b53adfffc8829, type: 3}
+  - {fileID: 21300000, guid: 4aa0159c1fee1f94eb36c35daade106c, type: 3}
+  - {fileID: 21300000, guid: f0a1e86d3c5cd914bbb53ea451dfdacd, type: 3}
+  - {fileID: 21300000, guid: 38710c9dd136b9240a16fe5422336e9d, type: 3}
+  - {fileID: 21300000, guid: 3152980eaa0f6cc49938722b04e0bb5f, type: 3}
+  - {fileID: 21300000, guid: 9e09ed9ef01f12e45b5403fbf7f71a67, type: 3}
+  - {fileID: 21300000, guid: a88a54fe9a0c6ce46ae6e056a61b11ec, type: 3}
+  - {fileID: 21300000, guid: b8064a4f056298947a5ef8775e74f499, type: 3}
+  - {fileID: 21300000, guid: 48f11c6f8ba59874ab926dbe60025197, type: 3}
+  - {fileID: 21300000, guid: 6f1ad8aff2c49bf4b9a4294e170c25b2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_classes_Monk
+  - UI_races_Halfling_s
+  - UI_races_HalfOrc_s
+  - UI_classes_Sorcerer
+  - UI_classes_Bard
+  - UI_classes_Cleric
+  - UI_races_Tiefling_s
+  - UI_races_Dwarf_s
+  - UI_races_Human_s
+  - UI_races_Dragonborn_s
+  - UI_classes_Artificer
+  - UI_classes_Wizard
+  - UI_classes_Warlock
+  - UI_races_Elf_s
+  - UI_races_HalfElf_small
+  - UI_classes_Druid
+  - UI_classes_Fighter
+  - UI_classes_Ranger
+  - UI_classes_Barbarian
+  - UI_classes_Rogue
+  - UI_classes_Paladin
+  - UI_races_Gnome_s
+  m_RenderDataMap: {}
+  m_Tag: Class and Race Icons
+  m_IsVariant: 0

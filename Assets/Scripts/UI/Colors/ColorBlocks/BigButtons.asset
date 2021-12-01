@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: BigButtons
   m_EditorClassIdentifier: 
   colors:
-    m_NormalColor: {r: 0.47058827, g: 0.3529412, b: 0.15686275, a: 1}
+    m_NormalColor: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
     m_HighlightedColor: {r: 0.7075472, g: 0.4785122, b: 0.09678713, a: 1}
     m_PressedColor: {r: 0.7075472, g: 0.4785122, b: 0.09678713, a: 1}
-    m_SelectedColor: {r: 0.47058827, g: 0.3529412, b: 0.15686275, a: 1}
+    m_SelectedColor: {r: 0.46226418, g: 0.37808397, b: 0.26383945, a: 1}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
-  normalColor: {fileID: 11400000, guid: c3f5caf9ec1cb664d94bea49f529f48c, type: 2}
+  normalColor: {fileID: 11400000, guid: 2352326eb6268764e91902ffd9b408b8, type: 2}
   highlightedColor: {fileID: 11400000, guid: d8187a6993b955742a2cb35fe70bbad1, type: 2}
   pressedColor: {fileID: 11400000, guid: d8187a6993b955742a2cb35fe70bbad1, type: 2}
-  selectedColor: {fileID: 11400000, guid: c3f5caf9ec1cb664d94bea49f529f48c, type: 2}
+  selectedColor: {fileID: 11400000, guid: 2352326eb6268764e91902ffd9b408b8, type: 2}
   disabledColor: {fileID: 11400000, guid: d6a369a9dc99a2c46bb7c175875dda38, type: 2}

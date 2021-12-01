@@ -12,7 +12,7 @@ namespace UI_Showcase
         protected Toggle toggle;
         [SerializeField] protected bool isEnabledAtStrat = false;
 
-        [SerializeField] protected List<GameObject> contentToToggle;
+        [SerializeField] protected List<GameObject> contentToToggle = new List<GameObject>();
 
         private void Awake()
         {

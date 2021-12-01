@@ -222,8 +222,8 @@ GameObject:
   - component: {fileID: 8875768802125179567}
   - component: {fileID: 8875768802125179564}
   - component: {fileID: 8875768802125179565}
-  - component: {fileID: 8875768802125179554}
   - component: {fileID: 2489832336606321272}
+  - component: {fileID: 4343934337952388682}
   m_Layer: 5
   m_Name: BigButton
   m_TagString: Untagged
@@ -311,10 +311,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.47058827, g: 0.3529412, b: 0.15686275, a: 1}
+    m_NormalColor: {r: 0.58431375, g: 0.30964938, b: 0.16470589, a: 1}
     m_HighlightedColor: {r: 0.7075472, g: 0.4785122, b: 0.09678713, a: 1}
     m_PressedColor: {r: 0.7075472, g: 0.4785122, b: 0.09678713, a: 1}
-    m_SelectedColor: {r: 0.47058827, g: 0.3529412, b: 0.15686275, a: 1}
+    m_SelectedColor: {r: 0.58431375, g: 0.30964938, b: 0.16470589, a: 1}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -334,19 +334,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8875768802125179554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8875768802125179552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4d0c87f41ed3864aabb5c584520698d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 0}
 --- !u!114 &2489832336606321272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,6 +347,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settableColor: {fileID: 11400000, guid: 9dd0dd416f1ea284983809e8f39a7583, type: 2}
+--- !u!114 &4343934337952388682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8875768802125179552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e67215f98f61b147b052a7cbfb322f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToTurnOn: []
+  objectsToTurnOff: []
 --- !u!1 &8875768803206063613
 GameObject:
   m_ObjectHideFlags: 0

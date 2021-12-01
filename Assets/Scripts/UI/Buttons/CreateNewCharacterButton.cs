@@ -10,13 +10,14 @@ namespace UI_Showcase
         protected override void OnClick()
         {
             GameObject newCharacter = Instantiate(characterPrefab, group.transform);
+            newCharacter.transform.SetSiblingIndex(0);
+
             if (newCharacter.TryGetComponent(out Toggle toggle))
             {
                 toggle.group = group;
                 toggle.isOn = true;
                 toggle.Select();
             }
-            newCharacter.transform.SetSiblingIndex(0);
         }
     }
 }

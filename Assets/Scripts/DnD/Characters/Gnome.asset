@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa47d799f5c7a84c82449912f902bc0, type: 3}
+  m_Name: Gnome
+  m_EditorClassIdentifier: 
+  characterName: Gwen
+  characterImage: {fileID: 21300000, guid: 6f1ad8aff2c49bf4b9a4294e170c25b2, type: 3}
+  characterLevel: 8
+  currentHitPoints: 20
+  hitPoints: 20
+  characterRace: {fileID: 11400000, guid: 0fee09573ff316d45b3953033c0575fd, type: 2}
+  characterClass: {fileID: 11400000, guid: 407e8e3ef0772b044a29b372e8161581, type: 2}
+  characterAge: 35
+  background: {fileID: 0}
+  equipment: 

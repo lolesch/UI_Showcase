@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfa47d799f5c7a84c82449912f902bc0, type: 3}
-  m_Name: new Character
+  m_Name: Tiefling
   m_EditorClassIdentifier: 
-  characterImage: {fileID: 21300000, guid: 64ed8522d16f54ac19372380109a204d, type: 3}
-  characterLevel: 1
-  currentHitPoints: 0
-  hitPoints: 0
-  characterRace: {fileID: 0}
-  characterClass: {fileID: 0}
-  characterAge: 0
+  characterName: Ansuth
+  characterImage: {fileID: 21300000, guid: 07a6cf047ad9ee64cb6cabad749710f4, type: 3}
+  characterLevel: 3
+  currentHitPoints: 20
+  hitPoints: 20
+  characterRace: {fileID: 11400000, guid: 122e47dfe16bd264e8b729fc213dc4f0, type: 2}
+  characterClass: {fileID: 11400000, guid: c5a8d6097e5ac634eba491e77152791f, type: 2}
+  characterAge: 26
   background: {fileID: 0}
   equipment: 
